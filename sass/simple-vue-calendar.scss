@@ -1,0 +1,105 @@
+.calendar {
+    background: #2CA8C2;
+    color: #FFF;
+    width:100%;
+    font-family: 'Oxygen';
+    table-layout: fixed;
+
+    &.turquoise {
+        background: #2CA8C2;
+    }
+
+    &.purple{
+        background:#913CCD;
+    }
+
+    &.pink{
+        background: #F15F74;
+    }
+
+    &.orange{
+        background: #F76D3C;
+    }
+
+    &.yellow{
+        background: #F7D842;
+    }
+
+    &.green{
+        background: #98CB4A;
+    }
+
+    &.grey{
+        background: #839098;
+    }
+
+    &.blue{
+        background: #5481E6;
+    }
+
+    .calendar-prev,
+    .calendar-next {
+        cursor: pointer;
+
+        &:hover {
+            background: rgba(0, 0, 0, 0.25);
+        }
+    }
+
+    .calendar-title {
+        th {
+            font-size: 22px;
+            font-weight: bold;
+            padding: 20px;
+            text-align: center;
+            text-transform: uppercase;
+            background: rgba(0, 0, 0, 0.05);
+        }
+    }
+
+    .calendar-header {
+        th {
+            padding: 10px;
+            text-align: center;
+            background: rgba(0, 0, 0, 0.1);
+        }
+    }
+
+    tbody {
+        tr {
+            td {
+                text-align: center;
+                vertical-align: top;
+                width: 14.28%;
+                &.pad{
+                    background: rgba(255, 255, 255, 0.1);
+                }
+
+                &.day {
+
+                    div:first-child{
+                        padding:4px;
+                        line-height:17px;
+                        height:25px;
+                    }
+
+                    div:last-child{
+                        font-size:10px;
+                        padding:4px;
+                        min-height:25px;
+                    }
+                }
+
+                &.today {
+                    background: rgba(255, 255, 255, 0.5);
+                }
+
+                &.mask-start,
+                &.mask,
+                &.mask-end {
+                    background: rgba(0, 0, 0, 0.4);
+                }
+            }
+        }
+    }
+}

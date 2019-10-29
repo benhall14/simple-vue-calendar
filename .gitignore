@@ -1,0 +1,3 @@
+node_modules/
+sass/.sass-cache
+dist/simple-vue-calendar.css.map
