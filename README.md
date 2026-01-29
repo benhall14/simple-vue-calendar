@@ -153,7 +153,7 @@ An array of day letters. Default:
 #### color
 If you're using the included CSS stylesheet, you can use any of the following to change the color scheme of the calendar: **`purple, pink, orange, yellow, green, grey, blue`**. By default, the **`turquoise`** color will be selected.
 
-You can demo the different color schemes at [https://conobe.co.uk/projects/simple-vue-calendar](https://conobe.co.uk/projects/simple-vue-calendar) 
+You can demo the different color schemes at [https://conobe.co.uk/code/simple-vue-calendar](https://conobe.co.uk/code/simple-vue-calendar) 
 
 # Requirements
 This component is built to be used with Vue 2.
